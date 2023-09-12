@@ -85,4 +85,4 @@ The lidar data is provided in .pcd format like shown in the above data schema. T
 The camera data was captured using 4 cameras in .jpg format with a resolution of 1280x720p.
 
 # Synchronisation
-
+We have synchronised front radar and front camera and, lidar and front camera. The synchronisation for these sensors are provided in .csv format, where the closest timestamp for the sensor is provided with respect to the front camera.
