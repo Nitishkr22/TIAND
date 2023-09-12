@@ -73,5 +73,5 @@ The lidar data is provided in .pcd format like shown in the above data schema. T
 7. Rings
 
 - CAMERA:
-The camera dataset has been made using images taken from 4 cameras in .jpg format with a resolution of 1280x720p.
-The data covers different timelines throughout the day like - Daytime, Noon and Evening. 
+The camera data was captured using 4 cameras in .jpg format with a resolution of 1280x720p.
+   The data covers different timelines throughout the day like - Daytime, Noon and Evening. 
