@@ -1,57 +1,60 @@
 # TI-AND
 
 The dataset consists of three sensor data: RADAR, LiDAR and camera. The radar data is provided in .csv format, lidar in .pcd format and camera data in .jpg format. The data provided by the sensors is further segregated as shown below:
-                                                              
-                                                      ├── camera
-                                                      │   ├── front
+                                                      ├── Calibration files  
+                                                      │   ├── Camera
+                                                      │   ├── Radar
+                                                      │   ├── Lidar
+                                                      ├── CAMERA
+                                                      │   ├── Front
                                                       │   │   ├── image_001.jpg
                                                       │   │   ├── image_002.jpg
                                                       │   │   ├── ...
-                                                      │   └── front-right
+                                                      │   └── Front-Right
                                                       │   │   ├── image_001.jpg
                                                       │   │   ├── image_002.jpg
                                                       │   │   ├── ...
-                                                      │   └── front-left
+                                                      │   └── Front-Left
                                                       │   │   ├── image_001.jpg
                                                       │   │   ├── image_002.jpg
                                                       │   │   ├── ...
-                                                      │   └── back
+                                                      │   └── Back
                                                       │       ├── image_001.jpg
                                                       │       ├── image_002.jpg
                                                       │       ├── ...
-                                                      ├── radar
-                                                      │   ├── front
+                                                      ├── RADAR
+                                                      │   ├── Front
                                                       │   │   ├── radar_data_001.csv
                                                       │   │   ├── radar_data_002.csv
                                                       │   │   ├── ...
-                                                      │   └── front-right
+                                                      │   └── Front-Right
                                                       │   │   ├── radar_data_001.csv
                                                       │   │   ├── radar_data_002.csv
                                                       │   │   ├── ...
-                                                      │   └── front-left
+                                                      │   └── Front-Left
                                                       │   │   ├── radar_data_001.csv
                                                       │   │   ├── radar_data_002.csv
                                                       │   │   ├── ...
-                                                      │   └── back
+                                                      │   └── Back
                                                       │   │   ├── radar_data_001.csv
                                                       │   │   ├── radar_data_002.csv
                                                       │   │   ├── ...
-                                                      │   └── back-left
+                                                      │   └── Back-Left
                                                       │   │   ├── radar_data_001.csv
                                                       │   │   ├── radar_data_002.csv
                                                       │   │   ├── ...
-                                                      │   └── back-right
+                                                      │   └── Back-Right
                                                       │       ├── radar_data_001.csv
                                                       │       ├── radar_data_002.csv
                                                       │       ├── ...
-                                                      ├── lidar
+                                                      ├── LIDAR
                                                       │   ├── lidar_data_001.pcd
                                                       │   ├── lidar_data_002.pcd
                                                       │   ├── ...
 
 # Sensors
-- RADAR
-The .csv files for radar scans have 9 rows each. Each of the row signify a different type of radar data:
+- RADAR:
+The .csv files for radar scans have 9 rows each. Each of the row signify a different channel of radar data, as described below:
  1. Scan type
  2. Range
  3. Azimuth
@@ -61,3 +64,13 @@ The .csv files for radar scans have 9 rows each. Each of the row signify a diffe
  7. Relative Velocity Variance
  8. Azimuth Variance
  9. Signal-To-Noise Ratio [SNR]
+
+- LiDAR:
+The lidar data is provided in .pcd format like shown in the above data schema. These pcds consist the following information:
+1. X
+2. Y
+3. Z
+4. Intensity
+5. Ambience
+6. Range
+7. Rings
