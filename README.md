@@ -71,3 +71,6 @@ The lidar data is provided in .pcd format like shown in the above data schema. T
 5. Ambience
 6. Range
 7. Rings
+
+- CAMERA:
+The camera dataset has been made using images taken from 4 cameras in .jpg format
