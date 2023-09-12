@@ -49,7 +49,7 @@ The dataset consists of three sensor data: RADAR, LiDAR and camera. The radar da
                                                       │   ├── lidar_data_002.pcd
                                                       │   ├── ...
 
-# Sensors
+# Sensor Data
 - RADAR:
 The .csv files for radar scans have 9 rows each. Each of the row signify a different channel of radar data, as described below:
  1. Scan type
@@ -73,4 +73,5 @@ The lidar data is provided in .pcd format like shown in the above data schema. T
 7. Rings
 
 - CAMERA:
-The camera dataset has been made using images taken from 4 cameras in .jpg format
+The camera dataset has been made using images taken from 4 cameras in .jpg format with a resolution of 1280x720p.
+The data covers different timelines throughout the day like - Daytime, Noon and Evening. 
