@@ -50,7 +50,7 @@ The dataset consists of three sensor data: RADAR, LiDAR and camera. The radar da
                                                       │   ├── ...
 
 # Sensors
-> RADAR
+- RADAR
 The .csv files for radar scans have 9 rows each. Each of the row signify a different type of radar data:
  1. Scan type
  2. Range
