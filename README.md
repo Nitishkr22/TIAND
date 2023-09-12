@@ -86,11 +86,13 @@ The camera data was captured using 4 cameras in .jpg format with a resolution of
 
 # Synchronisation
 We have synchronized front radar and front camera and, lidar and front camera. The synchronization for these sensors is provided in .csv format, where the closest timestamp for the sensor is provided with respect to the front camera.
+
 # Computer architecture used and sensor specifications
 We have used Ubuntu 18.04 LTS for the ROS-based data recording.
 - Camera : Baseler aCA1920-40gc
-- Radar :   * Long Range : ARS430DI   * Short Range : SRR520DI
-- LiDAR : Ouster OS2 
+- Radar : Long Range - ARS430DI; Short Range - SRR520DI
+- LiDAR : Ouster OS2
+
 # Download Link
 https://iith-my.sharepoint.com/:f:/g/personal/ee22mtech02005_iith_ac_in/EnNXPXQMmidDl1QYOKIRhxkBtwoWCiG1gcGex9dvxVcfSQ?e=AVU4pS
 
