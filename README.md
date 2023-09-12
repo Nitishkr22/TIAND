@@ -2,7 +2,7 @@
 
 The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar data is provided in .csv format, lidar in .pcd format and camera data in .jpg format. The data provided by the sensors is further segregated as shown below:
                                                     
-                                            TI-AND_DATASET_ROOT
+                                            TIAND_DATASET_ROOT
                                             ├── calib
                                             │   ├── lidar
                                             │   │   ├── lidar_calibration.txt
@@ -60,7 +60,7 @@ The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar d
 
 # Sensor Data
 - RADAR:
-The .csv files for radar scans have 9 rows each. Each of the rows signify a different channel of radar data, as described below:
+The .csv files for radar scans have 9 rows each. Each of the rows signifies a different channel of radar data, as described below:
  1. Scan type
  2. Range
  3. Azimuth
@@ -69,7 +69,7 @@ The .csv files for radar scans have 9 rows each. Each of the rows signify a diff
  6. Range Variance
  7. Relative Velocity Variance
  8. Azimuth Variance
- 9. Signal-To-Noise Ratio [SNR]
+ 9. Signal-to-noise ratio [SNR]
 
 - LiDAR:
 The lidar data is provided in .pcd format as shown in the above data schema. These pcds consist of the following information:
@@ -85,7 +85,7 @@ The lidar data is provided in .pcd format as shown in the above data schema. The
 The camera data was captured using 4 cameras in .jpg format with a resolution of 1280x720p.
 
 # Synchronisation
-We have synchronised front radar and front camera and, lidar and front camera. The synchronisation for these sensors are provided in .csv format, where the closest timestamp for the sensor is provided with respect to the front camera.
+We have synchronized front radar and front camera and, lidar and front camera. The synchronization for these sensors is provided in .csv format, where the closest timestamp for the sensor is provided with respect to the front camera.
 # Computer architecture used and sensor specifications
 We have used Ubuntu 18.04 LTS for the ROS-based data recording.
 
