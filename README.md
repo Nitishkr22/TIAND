@@ -1,4 +1,4 @@
-# TI-AND
+# TIAND
 
 The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar data is provided in .csv format, lidar in .pcd format and camera data in .jpg format. The data provided by the sensors is further segregated as shown below:
                                                     
@@ -86,6 +86,8 @@ The camera data was captured using 4 cameras in .jpg format with a resolution of
 
 # Synchronisation
 We have synchronised front radar and front camera and, lidar and front camera. The synchronisation for these sensors are provided in .csv format, where the closest timestamp for the sensor is provided with respect to the front camera.
+# Computer architecture used and sensor specifications
+We have used Ubuntu 18.04 LTS for the ROS-based data recording.
 
 # Download Link
 https://iith-my.sharepoint.com/:f:/g/personal/ee22mtech02005_iith_ac_in/EnNXPXQMmidDl1QYOKIRhxkBtwoWCiG1gcGex9dvxVcfSQ?e=AVU4pS
