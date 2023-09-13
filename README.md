@@ -62,6 +62,10 @@ The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar d
 - RADAR:
 The .csv files for radar scans have 9 rows each. Each of the rows signifies a different channel of radar data, as described below:
  1. Scan type
+    > 0: Near Scan (Long-range radar)
+    > 1: Far Scan (Long-range radar)
+    > 2: Near Scan (Short-range radar)
+    > 3: High Resolution-Range Scan (Short-range radar)
  2. Range
  3. Azimuth
  4. Relative Velocity
