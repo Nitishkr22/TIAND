@@ -57,6 +57,10 @@ The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar d
                                             │   ├── lidar_data_001.pcd
                                             │   ├── lidar_data_002.pcd
                                             │   ├── ...
+                                            ├── GNSS
+                                            │   ├── gnss_data.csv
+                                            
+        
 
 # Sensor Data
 - RADAR:
