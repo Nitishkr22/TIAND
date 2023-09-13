@@ -91,7 +91,7 @@ We have synchronized front radar and front camera and, lidar and front camera. T
 We have used Ubuntu 18.04 LTS for the ROS-based data recording.
 - Camera : Baseler aCA1920-40gc
 - Radar : Long Range - ARS430DI; Short Range - SRR520DI
-- LiDAR : Ouster OS2
+- LiDAR : Ouster OS2, Velodyne VLS-128
 
 # Download Link
 https://iith-my.sharepoint.com/:f:/g/personal/ee22mtech02005_iith_ac_in/EnNXPXQMmidDl1QYOKIRhxkBtwoWCiG1gcGex9dvxVcfSQ?e=AVU4pS
