@@ -93,7 +93,7 @@ The lidar data is provided in .pcd format as shown in the above data schema. The
 The camera data was captured using 4 cameras in .jpg format with a resolution of 1280x720p.
 
 - GNSS:
-The GNSS data consist of
+The GNSS data consist of:
 1. Time
 2. Latitude
 3. Longitude
@@ -110,6 +110,7 @@ We have synchronized front radar and front camera and, lidar and front camera. T
 
 # Computer architecture used and sensor specifications
 We have used Ubuntu 18.04 LTS for the ROS-based data recording.
+The sensor configurations are:
 - Camera : Baseler aCA1920-40gc
 - Radar : Long Range - ARS430DI; Short Range - SRR520DI
 - LiDAR : Ouster OS2, Velodyne VLS-128
