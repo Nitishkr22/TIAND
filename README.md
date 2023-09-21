@@ -106,7 +106,7 @@ The GNSS data consist of:
 10. Azimuth
 
 # Synchronisation
-We have synchronized front radar and front camera and lidar and front camera. The sensor synchronisation is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera.
+We have synchronized front radar and front camera and lidar and front camera. The sensor synchronization is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera.
 
 # Computer architecture used and sensor specifications
 Ubuntu 18.04 LTS was used for ROS-based data recording.
