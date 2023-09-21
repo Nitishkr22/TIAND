@@ -70,14 +70,14 @@ The .csv files for radar scans have nine rows each. Each of the rows signifies a
  3. Standard Deviation in X Distance
  4. Standard Deviation in Y Distance
  5. Radial Cross-Section [RCS]
- 6. Absolute Velocity in X direction
- 7. Absolute Velocity in Y direction
+ 6. Velocity in X direction
+ 7. Velocity in Y direction
  8. Acceleration in X direction
  9. Acceleration in Y direction
- 10. Standard Deviation of Absolute Velocity in X direction
- 11. Standard Deviation of Absolute Velocity in Y direction
- 12. Standard Deviation of Acceleration in Absolute X direction
- 13. Standard Deviation of Acceleration in Absolute Y direction
+ 10. Standard Deviation of Velocity in X direction
+ 11. Standard Deviation of Velocity in Y direction
+ 12. Standard Deviation of Acceleration in X direction
+ 13. Standard Deviation of Acceleration in Y direction
 
 - LiDAR:
 The lidar data is provided in .pcd format, as shown in the above data schema. These pcds consist of the following information:
