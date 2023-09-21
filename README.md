@@ -109,7 +109,7 @@ The GNSS data consist of:
 We have synchronized front radar and front camera and lidar and front camera. The sensor synchronisation is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera.
 
 # Computer architecture used and sensor specifications
-We have used Ubuntu 18.04 LTS for the ROS-based data recording.
+Ubuntu 18.04 LTS was used for ROS-based data recording.
 The sensor configurations are:
 - Camera: Baseler aCA1920-40gc
 - RADAR: Long Range - ARS430DI; Short Range - SRR520DI
