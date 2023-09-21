@@ -1,6 +1,6 @@
 # TIAND
 
-The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar data is provided in .csv format, lidar in .pcd format and camera data in .jpg format. The data provided by the sensors is further segregated as shown below:
+The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar data is provided in .csv format, lidar in .pcd format, and camera data in .jpg format. The data provided by the sensors is further segregated as shown below:
                                                     
                                             TIAND_DATASET_ROOT
                                             ├── calib
@@ -64,23 +64,23 @@ The dataset consists of three sensor data: RADAR, LiDAR, and camera. The radar d
 
 # Sensor Data
 - RADAR:
-The .csv files for radar scans have 9 rows each. Each of the rows signifies a different channel of radar data, as described below:
- 1. Scan type
-    > 0: Near Scan (Long-range radar) <br>
-    > 1: Far Scan (Long-range radar) <br>
-    > 2: Near Scan (Short-range radar) <br>
-    > 3: High Resolution-Range Scan (Short-range radar) <br>
- 2. Range
- 3. Azimuth
- 4. Relative Velocity
+The .csv files for radar scans have nine rows each. Each of the rows signifies a different channel of radar data, as described below:
+ 1. X Distance
+ 2. Y Distance
+ 3. Standard Deviation in X Distance
+ 4. Standard Deviation in Y Distance
  5. Radial Cross-Section [RCS]
- 6. Range Variance
- 7. Relative Velocity Variance
- 8. Azimuth Variance
- 9. Signal-to-noise ratio [SNR]
+ 6. Absolute Velocity in X direction
+ 7. Absolute Velocity in Y direction
+ 8. Acceleration in X direction
+ 9. Acceleration in Y direction
+ 10. Standard Deviation of Absolute Velocity in X direction
+ 11. Standard Deviation of Absolute Velocity in Y direction
+ 12. Standard Deviation of Acceleration in Absolute X direction
+ 13. Standard Deviation of Acceleration in Absolute Y direction
 
 - LiDAR:
-The lidar data is provided in .pcd format as shown in the above data schema. These pcds consist of the following information:
+The lidar data is provided in .pcd format, as shown in the above data schema. These pcds consist of the following information:
 1. X
 2. Y
 3. Z
@@ -90,7 +90,7 @@ The lidar data is provided in .pcd format as shown in the above data schema. The
 7. Rings
 
 - CAMERA:
-The camera data was captured using 4 cameras in .jpg format with a resolution of 1280x720p.
+The camera data was captured using four cameras in .jpg format with a resolution of 1280x720p.
 
 - GNSS:
 The GNSS data consist of:
@@ -106,15 +106,15 @@ The GNSS data consist of:
 10. Azimuth
 
 # Synchronisation
-We have synchronized front radar and front camera and, lidar and front camera. The synchronization for these sensors is provided in .csv format, where the closest timestamp for the sensor is provided with respect to the front camera.
+We have synchronized front radar and front camera and lidar and front camera. The sensor synchronisation is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera.
 
 # Computer architecture used and sensor specifications
 We have used Ubuntu 18.04 LTS for the ROS-based data recording.
 The sensor configurations are:
-- Camera : Baseler aCA1920-40gc
-- Radar : Long Range - ARS430DI; Short Range - SRR520DI
-- LiDAR : Ouster OS2, Velodyne VLS-128
-- GNSS : NovAtel PwrPak7
+- Camera: Baseler aCA1920-40gc
+- RADAR: Long Range - ARS430DI; Short Range - SRR520DI
+- LiDAR: Ouster OS2, Velodyne VLS-128
+- GNSS: NovAtel PwrPak7
 
 # Download Link
 https://iith-my.sharepoint.com/:f:/g/personal/ee22mtech02005_iith_ac_in/EnNXPXQMmidDl1QYOKIRhxkBtwoWCiG1gcGex9dvxVcfSQ?e=AVU4pS
