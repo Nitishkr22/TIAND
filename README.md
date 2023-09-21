@@ -105,7 +105,7 @@ The GNSS data consist of:
 9. Pitch
 10. Azimuth
 
-# Synchronisation
+# Synchronization
 We have synchronized front radar and front camera and lidar and front camera. The sensor synchronization is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera.
 
 # Computer architecture used and sensor specifications
