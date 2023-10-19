@@ -93,7 +93,7 @@ The lidar data is provided in .pcd format, as shown in the above data schema. Th
 The camera data was captured using four cameras in .jpg format with a resolution of 1280x720p.
 
 - GNSS:
-The GNSS data consist of:
+The GNSS data consists of:
 1. Time
 2. Latitude
 3. Longitude
