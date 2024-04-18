@@ -107,7 +107,11 @@ The GNSS data consists of:
 
 # Synchronization
 We have synchronized front radar and front camera and lidar and front camera. The sensor synchronization is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera. Synchronized Radar-Camera and Lidar-Camera timestamps are stored in .csv file which has a precision of up to 6 decimal places. To view these files please open in standard software like LibreOffice or Microsoft Office.
-![autera_timestamps](https://github.com/Nitishkr22/TIAND/assets/97292143/8ff2be7d-f775-4e5a-8afc-d1dd5ed4b3d6)
+
+![30_graph](https://github.com/Nitishkr22/TIAND/assets/97292143/82877d30-2a91-420d-b313-a1bc538ad63c)
+
+![ssRdMKeagjtXHeikfICe-dC1oRiJPTvDilCpJbXkVxkalNf0XVoZwqYNZyQprL-RpTjjWqMvKNkL6TGckjLzhmCzEbuZVAeUXE18AJvKwFo1uAnVxSVc45BkmVQZNO0vxNyiMvEJl150x6w5kWnRc7s](https://github.com/Nitishkr22/TIAND/assets/97292143/0aaf4367-23bc-417a-bf5c-3272357e2c53)
+
 
 # Computer architecture used and sensor specifications
 Ubuntu 18.04 LTS was used for ROS-based data recording.
