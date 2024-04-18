@@ -112,8 +112,7 @@ We have synchronized front radar and front camera and lidar and front camera. Th
 This graph illustrates the frequency of synchronized timestamps between the LiDAR sensor and the cameras. These synchronized timestamps correspond to keyframes that are well-suited for sensor fusion applications. The average frame rate, as indicated by the graph, is around 3-4 frames per second.
 
 ![ssRdMKeagjtXHeikfICe-dC1oRiJPTvDilCpJbXkVxkalNf0XVoZwqYNZyQprL-RpTjjWqMvKNkL6TGckjLzhmCzEbuZVAeUXE18AJvKwFo1uAnVxSVc45BkmVQZNO0vxNyiMvEJl150x6w5kWnRc7s](https://github.com/Nitishkr22/TIAND/assets/97292143/0aaf4367-23bc-417a-bf5c-3272357e2c53)
-The above figure shows the synchronization of frames between the front radar and camera with respect to timestamps. We have at least one closest radar frame corresponding to each camera frame with an accuracy in sub-microseconds.
-
+The above figure shows the synchronization of frames between the front radar and camera with respect to timestamps. Notably, for each camera frame, there exists at least one corresponding radar frame with a matching timestamp, achieving an accuracy level within sub-microseconds.
 
 # Computer architecture used and sensor specifications
 Ubuntu 18.04 LTS was used for ROS-based data recording.
