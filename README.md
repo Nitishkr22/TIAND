@@ -106,12 +106,13 @@ The GNSS data consists of:
 10. Azimuth
 
 # Synchronization
-We have synchronized front radar and front camera and lidar and front camera. The sensor synchronization is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera. Synchronized Radar-Camera and Lidar-Camera timestamps are stored in .csv file which has a precision of up to 6 decimal places. To view these files please open in standard software like LibreOffice or Microsoft Office.
+We have synchronized front radar and front camera and lidar and front camera. The sensor synchronization is provided in .csv format, where the closest timestamp for the sensor is provided concerning the front camera. Synchronized Radar-Camera and Lidar-Camera timestamps are stored in a .csv file which has a precision of up to 6 decimal places. To view these files please open in standard software like LibreOffice or Microsoft Office.
 
-![30_graph](https://github.com/Nitishkr22/TIAND/assets/97292143/82877d30-2a91-420d-b313-a1bc538ad63c)
+![lmaoadha](https://github.com/Nitishkr22/TIAND/assets/101446434/af9eeb85-e0a4-4dde-9851-5149149d8508)
+This graph illustrates the frequency of synchronized timestamps between the LiDAR sensor and the cameras. These synchronized timestamps correspond to keyframes that are well-suited for sensor fusion applications. The average frame rate, as indicated by the graph, is around 3-4 frames per second.
 
-The below figure shows the synchronization of frames between the front radar and camera with respect to timestamps. We have atleast one closest radar frame corresponding to each camera frame with an accuracy in sub-microseconds.
 ![ssRdMKeagjtXHeikfICe-dC1oRiJPTvDilCpJbXkVxkalNf0XVoZwqYNZyQprL-RpTjjWqMvKNkL6TGckjLzhmCzEbuZVAeUXE18AJvKwFo1uAnVxSVc45BkmVQZNO0vxNyiMvEJl150x6w5kWnRc7s](https://github.com/Nitishkr22/TIAND/assets/97292143/0aaf4367-23bc-417a-bf5c-3272357e2c53)
+The above figure shows the synchronization of frames between the front radar and camera with respect to timestamps. We have at least one closest radar frame corresponding to each camera frame with an accuracy in sub-microseconds.
 
 
 # Computer architecture used and sensor specifications
