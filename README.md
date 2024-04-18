@@ -110,6 +110,7 @@ We have synchronized front radar and front camera and lidar and front camera. Th
 
 ![30_graph](https://github.com/Nitishkr22/TIAND/assets/97292143/82877d30-2a91-420d-b313-a1bc538ad63c)
 
+The below figure shows the synchronization of frames between the front radar and camera with respect to timestamps. We have atleast one closest radar frame corresponding to each camera frame with an accuracy in sub-microseconds.
 ![ssRdMKeagjtXHeikfICe-dC1oRiJPTvDilCpJbXkVxkalNf0XVoZwqYNZyQprL-RpTjjWqMvKNkL6TGckjLzhmCzEbuZVAeUXE18AJvKwFo1uAnVxSVc45BkmVQZNO0vxNyiMvEJl150x6w5kWnRc7s](https://github.com/Nitishkr22/TIAND/assets/97292143/0aaf4367-23bc-417a-bf5c-3272357e2c53)
 
 
