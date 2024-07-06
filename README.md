@@ -123,4 +123,4 @@ The sensor configurations are:
 - GNSS: NovAtel PwrPak7
 
 # Download Link
-https://tihaniith-my.sharepoint.com/:f:/g/personal/venkat_to_tihaniith_onmicrosoft_com/Es54UmaVD7FEhwsui6JjtIoBoVJBJKAlZF-m42h1NaM9aQ?e=Ag027M
+https://tihaniith-my.sharepoint.com/:f:/g/personal/venkat_to_tihaniith_onmicrosoft_com/Es54UmaVD7FEhwsujtIoBoVJBJKAlZF-m42h1NaM9aQ?e=Ag027M
