@@ -123,7 +123,7 @@ The sensor configurations are:
 - GNSS: NovAtel PwrPak7
 
 # Citation
-If you find this work useful, please consider citing
+If you find this work useful, please consider citing us:
 ```
 @INPROCEEDINGS{10588583,
 author={Kumar, Nitish and S, Abhilash and Thakur, Abhishek and Gopi, Omkarthikeya and Dasgupta, Ayush and Algole, Arpitha and Anand, Bhaskar and Mutnuri, Venkata Satyanand and Reddy, Santhosh and Mannam, Naga Praveen Babu and Saripalli, Srikanth and Pachamuthu, Rajalakshmi},
