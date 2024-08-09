@@ -122,5 +122,30 @@ The sensor configurations are:
 - LiDAR: Ouster OS2, Velodyne VLS-128
 - GNSS: NovAtel PwrPak7
 
-# Download Link
-https://tihaniith-my.sharepoint.com/:f:/g/personal/venkat_to_tihaniith_onmicrosoft_com/Es54UmaVD7FEhwsujtIoBoVJBJKAlZF-m42h1NaM9aQ?e=Ag027M
+# Citation
+If you find this work useful, please consider citing
+```
+@INPROCEEDINGS{10588583,
+
+  author={Kumar, Nitish and S, Abhilash and Thakur, Abhishek and Gopi, Omkarthikeya and Dasgupta, Ayush and Algole, Arpitha and Anand, Bhaskar and Mutnuri, Venkata Satyanand and Reddy, Santhosh and Mannam, Naga Praveen Babu and Saripalli, Srikanth and Pachamuthu, Rajalakshmi},
+
+  booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
+
+  title={TIAND: A Multimodal Dataset for Autonomy on Indian Roads}, 
+
+  year={2024},
+
+  volume={},
+
+  number={},
+
+  pages={688-694},
+
+  keywords={YOLO;Laser radar;Simultaneous localization and mapping;Roads;Urban areas;Radar detection;Radar},
+
+  doi={10.1109/IV55156.2024.10588583}}
+```
+
+# TIAND Website Link
+https://tihan.iith.ac.in/tiand-datasets/
+
