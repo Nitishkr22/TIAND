@@ -126,24 +126,15 @@ The sensor configurations are:
 If you find this work useful, please consider citing
 ```
 @INPROCEEDINGS{10588583,
-
-  author={Kumar, Nitish and S, Abhilash and Thakur, Abhishek and Gopi, Omkarthikeya and Dasgupta, Ayush and Algole, Arpitha and Anand, Bhaskar and Mutnuri, Venkata Satyanand and Reddy, Santhosh and Mannam, Naga Praveen Babu and Saripalli, Srikanth and Pachamuthu, Rajalakshmi},
-
-  booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
-
-  title={TIAND: A Multimodal Dataset for Autonomy on Indian Roads}, 
-
-  year={2024},
-
-  volume={},
-
-  number={},
-
-  pages={688-694},
-
-  keywords={YOLO;Laser radar;Simultaneous localization and mapping;Roads;Urban areas;Radar detection;Radar},
-
-  doi={10.1109/IV55156.2024.10588583}}
+author={Kumar, Nitish and S, Abhilash and Thakur, Abhishek and Gopi, Omkarthikeya and Dasgupta, Ayush and Algole, Arpitha and Anand, Bhaskar and Mutnuri, Venkata Satyanand and Reddy, Santhosh and Mannam, Naga Praveen Babu and Saripalli, Srikanth and Pachamuthu, Rajalakshmi},
+booktitle={2024 IEEE Intelligent Vehicles Symposium (IV)}, 
+title={TIAND: A Multimodal Dataset for Autonomy on Indian Roads}, 
+year={2024},
+volume={},
+number={},
+pages={688-694},
+keywords={YOLO;Laser radar;Simultaneous localization and mapping;Roads;Urban areas;Radar detection;Radar},
+doi={10.1109/IV55156.2024.10588583}}
 ```
 
 # TIAND Website Link
